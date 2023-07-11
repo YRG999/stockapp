@@ -1,0 +1,8 @@
+pandas>=2.0.2
+yfinance>=0.2.20
+matplotlib>=3.7.1
+pip>=23.1.2
+lxml>=4.9.2
+tensorflow
+keras
+scikit-learn
