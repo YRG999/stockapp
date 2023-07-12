@@ -1,3 +1,12 @@
+# Stock apps
+
+* `stockcomparison.py` -- compare stock prices for 120 days from today and the same time period a year ago.
+* `marketcap.py` -- get marketcap for all stocks in a list.
+* `stocklist.py` -- get the list of stocks in the NASDAQ100 list.
+* `stockdata.py` -- download daily stock data from Yahoo Finance.
+* `stockpredict.py` -- use a [long short-term memory network (LSTM)](https://en.wikipedia.org/wiki/Long_short-term_memory) to predict stock prices.
+* `comparemonths.py` -- compare stock data month over month for a stock from a list of daily stock data.
+
 ## Set up env
 
 Create & activate new virtual environment
@@ -13,7 +22,10 @@ Install the requirements
    $ pip install -r requirements.txt
    ```
 
-Other requirements (may be installed by above):
+The following will be installed.
+
+<details>
+  <summary>Full package list</summary>
 
 ```
 appdirs            1.4.4
@@ -50,3 +62,5 @@ urllib3            2.0.3
 webencodings       0.5.1
 yfinance           0.2.20
 ```
+
+</details>
