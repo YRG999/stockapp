@@ -15,9 +15,14 @@ def download_stock_data(symbol, start_date, engitd_date):
 # start_date = "2023-01-01"  # Start date for data retrieval
 # end_date = "2023-07-09"  # End date for data retrieval
 
-# SPY
-symbol = "SPY"  # Stock symbol (e.g., Apple Inc.)
-start_date = "2020-01-01"  # Start date for data retrieval
-end_date = "2023-07-09"  # End date for data retrieval
+# # SPY
+# symbol = "SPY"  # Stock symbol (e.g., Apple Inc.)
+# start_date = "2020-01-01"  # Start date for data retrieval
+# end_date = "2023-07-09"  # End date for data retrieval
+
+# MSFT
+symbol = "MSFT"  # Stock symbol (e.g., Apple Inc.)
+start_date = "2013-01-01"  # Start date for data retrieval
+end_date = "2023-07-12"  # End date for data retrieval
 
 download_stock_data(symbol, start_date, end_date)
